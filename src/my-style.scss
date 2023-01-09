@@ -1,0 +1,34 @@
+.exp {
+    .work-info {
+        .detail span {
+            display: inline-block;
+            padding: 0.2rem;
+        }
+    }
+}
+
+.project {
+    .w3l-heading {
+        margin-bottom: 5rem;
+    }
+    .pro-row {
+        margin-bottom: 5rem;
+    }
+    img {
+        height: 28rem;
+    }
+    .col-img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 23px rgb(204, 201, 201);
+        border-radius: 0.9rem;
+        &:hover {
+            -ms-transform: scale(1.08); /* IE 9 */
+            -webkit-transform: scale(1.08); /* Safari 3-8 */
+            transform: scale(1.08);
+        }
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
