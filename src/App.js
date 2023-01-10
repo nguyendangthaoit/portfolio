@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './my-style.scss';
+import './assets/css/my-style.scss';
+import './assets/css/my-respon.scss';
 import Home from './components/home';
 import About from './components/about';
 import Education from './components/education';
 import Experience from './components/experience';
 import Project from './components/project';
-
+import Overall from "./components/overall";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -135,7 +136,7 @@ function App() {
       <Education />
       <Experience />
       <Project />
-      <div id="contact" className="w3_agileits-contact">
+      {/* <div id="contact" className="w3_agileits-contact">
         <div className="container">
           <h3 className="w3l-heading">contact</h3>
           <div className="w3_agile-contact  jarallax text-center">
@@ -156,7 +157,8 @@ function App() {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Overall />
       <div className="agileits_w3layouts-footer text-center">
         <div className="container">
           <p>&copy; 2017 Vitae. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>

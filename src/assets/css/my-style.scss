@@ -1,0 +1,294 @@
+.exp {
+    .work-info {
+        .detail span {
+            display: inline-block;
+            padding: 0.2rem;
+        }
+    }
+}
+
+.project {
+    .w3l-heading {
+        margin-bottom: 5rem;
+    }
+    .pro-row {
+        margin-bottom: 5rem;
+    }
+    img {
+        height: 28rem;
+    }
+    .col-img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 23px rgb(204, 201, 201);
+        border-radius: 0.9rem;
+        &:hover {
+            -ms-transform: scale(1.08); /* IE 9 */
+            -webkit-transform: scale(1.08); /* Safari 3-8 */
+            transform: scale(1.08);
+        }
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
+.overall {
+    background: url(../images/overall.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 533px;
+    position: relative;
+    padding-top: 12em;
+    .overall-grids {
+        position: relative;
+    }
+    .cycle {
+        text-align: center;
+    }
+    .cycle span {
+        width: 284px;
+        height: 284px;
+        display: inline-block;
+        background: url(../images/cycle.png) no-repeat 0px 0px;
+    }
+    .overall-grid p {
+        color: #fff;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin: 0;
+        line-height: 1.6;
+    }
+    .overall-grid span {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        background: #fff;
+        border-radius: 30em;
+    }
+    .overall-grid:hover span {
+        background: #5dbed2;
+    }
+    .overall-grid span i {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background: url(../images/overall-icons.png) no-repeat 0px 0px;
+    }
+    .overall-grid span i.p-icon {
+        margin-top: 0.9em;
+        margin-left: 0.6em;
+    }
+    .total-project {
+        position: absolute;
+        top: -36%;
+        left: 46%;
+        text-align: center;
+    }
+    .clientsgrid {
+        position: absolute;
+        left: 36.5%;
+        top: 59%;
+        text-align: center;
+    }
+    .clientsgrid div {
+        position: absolute;
+        left: -88px;
+        top: 36px;
+    }
+    .clientsgrid span i.p-icon {
+        background-position: -43px 0px;
+    }
+    .people-grid {
+        position: absolute;
+        left: 57.5%;
+        top: 58%;
+        text-align: center;
+    }
+    .people-grid div {
+        position: absolute;
+        left: 25px;
+        top: 52px;
+    }
+    .people-grid span i.p-icon {
+        background-position: -87px 0px;
+    }
+    /*-- //about --*/
+    /* -- Responsive code -- */
+
+    @media screen and (max-width: 1366px) {
+        .total-project {
+            top: -43%;
+        }
+    }
+    @media screen and (max-width: 1280px) {
+        .total-project {
+            top: -38%;
+        }
+        .clientsgrid {
+            left: 33%;
+        }
+        .people-grid {
+            left: 60.5%;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .total-project {
+            top: -34%;
+            left: 43%;
+        }
+        .clientsgrid {
+            left: 29.5%;
+        }
+        .people-grid {
+            left: 60.5%;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .total-project {
+            top: -35%;
+            left: 42%;
+        }
+        .clientsgrid {
+            left: 26.5%;
+        }
+        .people-grid {
+            left: 63.5%;
+        }
+    }
+    @media screen and (max-width: 667px) {
+        .overall {
+            min-height: 488px;
+            padding-top: 11em;
+        }
+    }
+    @media screen and (max-width: 640px) {
+        .total-project {
+            left: 39%;
+        }
+        .clientsgrid {
+            left: 26.5%;
+        }
+        .people-grid {
+            left: 62.5%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .total-project {
+            left: 38%;
+        }
+    }
+    @media screen and (max-width: 568px) {
+        .total-project {
+            left: 39%;
+        }
+        .clientsgrid {
+            left: 21.5%;
+        }
+        .people-grid {
+            left: 65.5%;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .overall {
+            min-height: 460px;
+            padding-top: 9em;
+        }
+        .overall-grid p {
+            font-size: 1.2em;
+        }
+        .total-project {
+            top: -31%;
+            left: 40%;
+        }
+        .clientsgrid {
+            left: 10.5%;
+        }
+        .clientsgrid div {
+            left: -45px;
+            top: 53px;
+        }
+        .people-grid {
+            left: 68.5%;
+        }
+        .people-grid div {
+            left: 18px;
+            top: 76px;
+        }
+    }
+    @media screen and (max-width: 414px) {
+        .overall {
+            min-height: 445px;
+            padding-top: 8.5em;
+        }
+        .overall-grid span {
+            width: 60px;
+            height: 60px;
+        }
+        .overall-grid span i.p-icon {
+            margin-top: 0.6em;
+        }
+        .total-project {
+            top: -30%;
+            left: 38.5%;
+        }
+        .clientsgrid {
+            left: 5.5%;
+        }
+        .clientsgrid div {
+            left: -26px;
+            top: 68px;
+        }
+        .people-grid {
+            left: 75.5%;
+        }
+        .people-grid div {
+            left: -12px;
+        }
+    }
+    @media screen and (max-width: 384px) {
+        .overall-grid p {
+            font-size: 1.1em;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .overall {
+            min-height: 410px;
+            padding-top: 7.5em;
+        }
+        .cycle span {
+            width: 250px;
+            height: 250px;
+            background-size: 250px;
+        }
+        .overall-grid span {
+            width: 50px;
+            height: 50px;
+        }
+        .overall-grid span i.p-icon {
+            margin-top: 0.3em;
+            margin-left: 0.7em;
+        }
+        .total-project {
+            top: -30%;
+            left: 34.5%;
+        }
+        .clientsgrid {
+            left: 3.5%;
+            top: 60%;
+        }
+        .clientsgrid div {
+            left: -18px;
+        }
+        .people-grid {
+            left: 76.5%;
+        }
+        .people-grid div {
+            left: -33px;
+        }
+    }
+    /* -- //Responsive code -- */
+}
