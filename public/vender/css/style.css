@@ -221,8 +221,8 @@ h3.w3l-heading {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 5px;
-    border:1px solid #ce7501;
-    width: 23%;
+    /* border:1px solid #ce7501;
+    width: 23%; */
     margin: 0 auto;
     padding: 0.4em;
 }
@@ -922,7 +922,7 @@ ul.address li ul.agileits-address-text li a:hover{
 @media screen and (max-width: 1080px){
 	h3.w3l-heading {
 		padding: 0.4em 0.5em;
-		width: 17%;
+		/* width: 17%; */
 	}
 	.w3l-about {
 		padding:3em;
@@ -991,9 +991,9 @@ ul.address li ul.agileits-address-text li a:hover{
 		width: 50%;
 		margin: 1em auto 0;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 22%;
-	}
+	} */
 	div#edu .container,div#exp .container {
 		width: 100%;
 	}
@@ -1112,9 +1112,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.navbar-default .navbar-nav > li > a {
 		text-align: center;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 23%;
-	}
+	} */
 	.work-left {
 		padding: 5em 1em 0 0;
 	}
@@ -1129,9 +1129,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.w3l-button.banner-btn {
 		width: 29%;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 25%;
-	}
+	} */
 	.work-info h5.node {
 		font-size: 1.2em;
 	}
@@ -1146,9 +1146,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	figcaption.w3layouts-caption h3 {
 		margin-top: 87px;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 27%;
-	}
+	} */
 	.work-info h5.node {
 		font-size: 1.1em;
 		padding: 1.1em 1.5em;
@@ -1171,9 +1171,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-text.text-center {
 		padding: 6em 0 0;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 29%;
-	}
+	} */
 	.work-info h5.node {
 		font-size: 1em;
 	}
@@ -1197,9 +1197,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.w3l-button.banner-btn {
 		width: 35%;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 32%;
-	}
+	} */
 	.w3_agile-contact input[type="submit"] {
 		width: 33%;
 		padding:0.2em 0.5em;
@@ -1230,9 +1230,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-text p {
 		letter-spacing: 2px;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 38%;
-	}
+	} */
 	figcaption.w3layouts-caption h3 {
 		margin-top: 58px;
 	}
@@ -1310,9 +1310,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-text.text-center {
 		padding: 7em 0 0;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 45%;
-	}
+	} */
 	.filtr-item{
 		float:none;
 		width:100%;
@@ -1351,9 +1351,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.header h2 {
 		font-size: 3em;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 49%;
-	}
+	} */
 	.w3l-button.banner-btn {
 		width: 54%;
 	}
@@ -1429,9 +1429,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.w3l-button.banner-btn {
 		width: 67%;
 	}
-	h3.w3l-heading {
+	/* h3.w3l-heading {
 		width: 60%;
-	}
+	} */
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		padding: 6px;
 	}	
