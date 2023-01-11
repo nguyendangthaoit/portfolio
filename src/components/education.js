@@ -8,7 +8,7 @@ function Education() {
                     <div className="work-info">
                         <div className="col-md-6 col-sm-6 col-xs-6 work-right work-right2">
                         </div>
-                        <div className="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+                        <div className="col-md-6  col-sm-6 col-xs-6  work-left work-left2" data-aos="zoom-out-up">
                             <div className="col-md-6  col-sm-6 col-xs-6  work1">
                                 <h4>THE DEGREE OF ENGINEER</h4>
                                 <p>Information Systems -

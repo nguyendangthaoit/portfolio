@@ -1,3 +1,4 @@
+import MyPDF from '../assets/files/ThaoNguyen_Resume.pdf';
 function Home() {
     return (
         <>
@@ -33,11 +34,11 @@ function Home() {
             <div className="header jarallax" id="home">
                 <div className="container">
                     <div className="banner-text text-center">
-                        <h2>I am  Thao Nguyen</h2>
-                        <h3> - senior front end developer - </h3>
-                        <p>Let's build something cool together. </p>
+                        <h2 data-aos="fade-right">I am  Thao Nguyen</h2>
+                        <h3 data-aos="fade-left"> - senior front end developer - </h3>
+                        <p data-aos="flip-left">Let's build something cool together. </p>
                         <div className="w3l-button banner-btn">
-                            <a href="#">Download CV</a>
+                            <a href={MyPDF} target="_blank" download={'ThaoNguyen_Resume'}>Download CV</a>
                         </div>
                     </div>
                     <div className="w3-arrow bounce animated">
