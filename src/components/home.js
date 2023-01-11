@@ -38,7 +38,7 @@ function Home() {
                         <h3 data-aos="fade-left"> - senior front end developer - </h3>
                         <p data-aos="flip-left">Let's build something cool together. </p>
                         <div className="w3l-button banner-btn">
-                            <a href={MyPDF} target="_blank" download={'ThaoNguyen_Resume'}>Download CV</a>
+                            <a href={MyPDF} target="_blank" download={'ThaoNguyen_Resume'}>My Resume</a>
                         </div>
                         <div className='social'>
                             <a href='https://www.linkedin.com/in/thao-nguyen-a98a901b4/' target="_blank">

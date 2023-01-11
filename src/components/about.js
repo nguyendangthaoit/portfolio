@@ -20,8 +20,8 @@ function About() {
                                 pressure.
                             </p>
                         </div>
-                        <div className="w3l-button">
-                            <a href="#" data-toggle="modal" data-target="#myModal">more my profile</a>
+                        <div className="w3l-button detail">
+                            <a href="#" data-toggle="modal" data-target="#myModal">details</a>
                         </div>
                     </div>
                     <div className="clearfix"></div>
@@ -54,24 +54,24 @@ function About() {
                                         <li>
                                             <ul className="agileits-address-text">
                                                 <li><b>WhatsApp </b></li>
-                                                <li>(60)11-2344-8795</li>
+                                                <li><a href="https://chatwith.io/s/thao-nguyen" target='_blank'> (60)11-2344-8795</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <ul className="agileits-address-text">
-                                                <li><b>ADDRESS </b></li>
+                                                <li><b>Address </b></li>
                                                 <li>Kuala Lumpur, Malaysia.</li>
                                             </ul>
                                         </li>
                                         <li>
                                             <ul className="agileits-address-text">
-                                                <li><b>E-MAIL </b></li>
+                                                <li><b>E-mail </b></li>
                                                 <li><a href="mailto:nguyendangthaoit@gmail.com"> nguyendangthaoit@gmail.com</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <ul className="agileits-address-text">
-                                                <li><b>WEBSITE </b></li>
+                                                <li><b>Website </b></li>
                                                 <li><a href="https://www.linkedin.com/in/thao-nguyen-a98a901b4/" target='_blank'>
                                                     https://www.linkedin.com
                                                 </a></li>
