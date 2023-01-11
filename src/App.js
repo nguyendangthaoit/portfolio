@@ -9,6 +9,7 @@ import Education from './components/education';
 import Experience from './components/experience';
 import Project from './components/project';
 import Overall from "./components/overall";
+import Skill from './components/skill';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -136,6 +137,7 @@ function App() {
       <Education />
       <Experience />
       <Project />
+      <Skill/>
       {/* <div id="contact" className="w3_agileits-contact">
         <div className="container">
           <h3 className="w3l-heading">contact</h3>
