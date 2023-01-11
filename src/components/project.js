@@ -5,7 +5,7 @@ import iapMoImg from '../assets/images/iapMo.jpg';
 function Project() {
     return (
         <>
-            <section className="py-5 project">
+            <section className="py-5 project" id="pro">
                 <div className="container py-md-5">
                     <h3 className="w3l-heading">Projects</h3>
                     <div className="row pro-row">

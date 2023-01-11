@@ -7,10 +7,10 @@ function About() {
             <div className="about" id="about">
                 <div className="container">
                     <h3 className="w3l-heading">About me</h3>
-                    <div className="col-md-4 w3-about-top">
+                    <div className="col-md-4 w3-about-top" data-aos="fade-up">
                         <img src={aboutImg} className="img-responsive" alt="about-img" />
                     </div>
-                    <div className="col-md-8 w3l-about">
+                    <div className="col-md-8 w3l-about" data-aos="fade-down">
                         <div className="w3ls-heading">
                             <h2>I'm a senior front end developer based in Vietnam.</h2>
                         </div>

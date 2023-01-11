@@ -1,7 +1,7 @@
 function Overall() {
     return (
         <>
-            <div className="overall">
+            <div className="overall" id="overall">
                 <div className="container">
                     <div className="overall-grids">
                         <div className="cycle">

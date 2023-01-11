@@ -20,10 +20,11 @@ function Home() {
                                 <li className="hidden"><a className="page-scroll" href="#page-top"></a></li>
                                 <li><a className="page-scroll scroll active" href="#home">Home</a></li>
                                 <li><a className="page-scroll scroll" href="#about">About</a></li>
-                                <li><a className="page-scroll scroll" href="#port">Portfolio</a></li>
-                                <li><a className="page-scroll scroll" href="#edu">Education</a></li>
                                 <li><a className="page-scroll scroll" href="#exp">Experience</a></li>
-                                <li><a className="page-scroll scroll" href="#contact">Contact</a></li>
+                                <li><a className="page-scroll scroll" href="#pro">Project</a></li>
+                                <li><a className="page-scroll scroll" href="#edu">Education</a></li>
+                                <li><a className="page-scroll scroll" href="#skill">Skill</a></li>
+                                <li><a className="page-scroll scroll" href="#overall">Overall</a></li>
                             </ul>
                         </div>
                     </div>

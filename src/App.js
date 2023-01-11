@@ -21,6 +21,11 @@ function App() {
     <>
       <Home />
       <About />
+      <Experience />
+      <Project />
+      <Education />
+      <Skill />
+      <Overall />
       {/* <div className="portfolio" id="port">
         <div className="port-head">
           <h3 className="w3l-heading">portfolio</h3>
@@ -134,10 +139,6 @@ function App() {
           <div className="clearfix"> </div>
         </div>
       </div> */}
-      <Education />
-      <Experience />
-      <Project />
-      <Skill/>
       {/* <div id="contact" className="w3_agileits-contact">
         <div className="container">
           <h3 className="w3l-heading">contact</h3>
@@ -160,10 +161,10 @@ function App() {
           </div>
         </div>
       </div> */}
-      <Overall />
+
       <div className="agileits_w3layouts-footer text-center">
         <div className="container">
-          <p>&copy; 2017 Vitae. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+          <p>&copy; All rights reserved | Design by <a href="https://www.linkedin.com/in/thao-nguyen-a98a901b4/">Thao Nguyen</a></p>
         </div>
       </div>
     </>

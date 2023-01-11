@@ -27,7 +27,7 @@ function Skill() {
     ]
     return (
         <>
-            <div className="skill">
+            <div className="skill" id='skill'>
                 <div className="container">
                     <h3 className="w3l-heading">What I Can Do</h3>
                     <div className="flex-container">

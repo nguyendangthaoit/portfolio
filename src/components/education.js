@@ -41,9 +41,6 @@ function Education() {
                     <span className="edu-circle"></span> */}
                 </div>
             </div>
-            <div className="agile-border">
-                <span></span>
-            </div>
         </>
     );
 }
