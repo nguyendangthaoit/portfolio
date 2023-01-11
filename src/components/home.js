@@ -13,7 +13,7 @@ function Home() {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <h1><a className="navbar-brand" href="index.html">NDT</a></h1>
+                            <h1><a className="navbar-brand" href="/">NDT</a></h1>
                         </div>
                         <div className="collapse navbar-collapse navbar-ex1-collapse">
                             <ul className="nav navbar-nav navbar-right">
@@ -39,6 +39,20 @@ function Home() {
                         <p data-aos="flip-left">Let's build something cool together. </p>
                         <div className="w3l-button banner-btn">
                             <a href={MyPDF} target="_blank" download={'ThaoNguyen_Resume'}>Download CV</a>
+                        </div>
+                        <div className='social'>
+                            <a href='https://www.linkedin.com/in/thao-nguyen-a98a901b4/' target="_blank">
+                                <button type="button" class="btn btn-outline-primary" data-aos="flip-left"><i class="fab mr-1 fa-linkedin-in"></i></button>
+                            </a>
+                            <a href='https://github.com/nguyendangthaoit' target="_blank">
+                                <button type="button" class="btn btn-outline-secondary" data-aos="flip-left"><i class="fab mr-1 fa-github"></i></button>
+                            </a>
+                            <a href='https://chatwith.io/s/thao-nguyen' target="_blank">
+                                <button type="button" class="btn btn-outline-success" data-aos="flip-left"><i class="fab mr-1 fa-whatsapp"></i></button>
+                            </a>
+                            <a href='mailto:nguyendangthaoit@gmail.com' target="_blank">
+                                <button type="button" class="btn btn-outline-info" data-aos="flip-left"><i class="fab mr-1 fa-google"></i></button>
+                            </a>
                         </div>
                     </div>
                     <div className="w3-arrow bounce animated">

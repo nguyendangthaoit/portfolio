@@ -127,7 +127,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     text-align: center;
 	font-family: 'Dancing Script', cursive;
 }
-.header a {
+.header .banner-btn a {
     display: block;
     margin: 1em;
 	background:#fff;

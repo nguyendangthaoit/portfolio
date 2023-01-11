@@ -8,13 +8,13 @@ function Overall() {
                             <span> </span>
                         </div>
                         <div className="overall-grid total-project" data-aos="zoom-in-up">
-                            <p>11</p>
+                            <p>12</p>
                             <p>Projects</p>
                             <span> <i className="p-icon"> </i></span>
                         </div>
                         <div className="overall-grid clientsgrid" data-aos="zoom-in-up">
                             <div>
-                                <p>6</p>
+                                <p>7</p>
                                 <p>Clients</p>
                             </div>
                             <span> <i className="p-icon"> </i></span>
