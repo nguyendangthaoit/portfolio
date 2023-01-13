@@ -7,6 +7,36 @@
             display: inline-block;
             padding: 0.2rem;
         }
+        @media screen and (max-width: 800px) {
+            h5.node {
+                font-size: 1.15em;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .work-right .work2 h5:after {
+                left: 110px;
+            }
+            .work-left2 .work2 h5:before {
+                left: 3px;
+            }
+        }
+    }
+}
+.exp {
+    .work-info {
+        @media screen and (max-width: 800px) {
+            h5.node {
+                font-size: 1.15em;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .work-right .work2 h5:after {
+                left: 110px;
+            }
+            .work-left2 .work2 h5:before {
+                left: 3px;
+            }
+        }
     }
 }
 .project {
@@ -432,3 +462,26 @@
         }
     }
 }
+
+/* scroll custom */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* and scroll custom */

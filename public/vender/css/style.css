@@ -614,7 +614,7 @@ span.edu-circle {
 }
 
 .work-info h5.node {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #fff;
     margin-bottom: .5em;
     display: inline-block;
@@ -656,7 +656,7 @@ span.edu-circle {
     display: block;
     width: 45%;
     background: #000;
-    height: 1px;
+    height: 0.01rem;
     position: absolute;
     right: -85px;
     top: 25px;
@@ -665,14 +665,14 @@ span.edu-circle {
     display: block;
     width: 46%;
     background: #000;
-    height: 1px;
+    height: 0.01rem;
     position: absolute;
     left: -84px;
     top: 24px;
 }
 .work1 {
     border: 1px dashed #171717;
-    padding: 1em 2em;
+    padding: 1em 1em;
 	width: 60%;
 }
 .work2 {
@@ -680,7 +680,7 @@ span.edu-circle {
 }
 .work-right1 {
     border: 1px dashed #171717;
-    padding: 1em 2em;
+    padding: 1em 1em;
     width: 60%;
 }
 .work1 p,.work-right1 p {
@@ -940,7 +940,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		width: 55%;
 	}
 	.exp .work-info h5.node {
-		padding: 0.9em 0.7em
+		padding: 0.8em 0.5em
 	}
 	.w3_agile-contact form {
 		width: 65%;
@@ -1205,7 +1205,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		padding:0.2em 0.5em;
 	}
 	.exp .work-info h5.node {
-		padding: 1.3em 0.7em;
+		padding: 1.2em 0.5em;
 	}
 	figcaption.w3layouts-caption h3 {
 		margin-top: 75px;
@@ -1324,7 +1324,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		padding: 1.3em 1.4em;
 	}
 	.work-right .work2 h5:after {
-		left: 107px;	
+		left: 110px;	
 	}	
 	.exp .work-info h5 {
 		padding: 1.3em 0.5em;
