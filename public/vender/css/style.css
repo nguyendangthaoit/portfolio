@@ -182,7 +182,7 @@ h4.modal-title {
     color: #000;
 }
 .w3l-button a:hover {
-    color: #3572e5;;
+    color:white;
 }
 .services,.portfolio,.agile-edu,.w3_agileits-contact{
    	padding:4em 0;
@@ -301,7 +301,7 @@ h3.w3l-heading {
     top: 29%;
     right: 14%;
     padding: 4em;
-    background: rgb(231, 160, 7);
+    background: rgb(88 127 198 / 69%);
     border: 1px solid #ece4e4;
     position: absolute;
 }

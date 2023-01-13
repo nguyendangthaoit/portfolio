@@ -42,16 +42,16 @@ function Home() {
                         </div>
                         <div className='social'>
                             <a href='https://www.linkedin.com/in/thao-nguyen-a98a901b4/' target="_blank">
-                                <button type="button" class="btn btn-outline-primary" data-aos="flip-left"><i class="fab mr-1 fa-linkedin-in"></i></button>
+                                <button type="button" className="btn btn-outline-primary" data-aos="flip-left"><i className="fab mr-1 fa-linkedin-in"></i></button>
                             </a>
                             <a href='https://github.com/nguyendangthaoit' target="_blank">
-                                <button type="button" class="btn btn-outline-secondary" data-aos="flip-left"><i class="fab mr-1 fa-github"></i></button>
+                                <button type="button" className="btn btn-outline-secondary" data-aos="flip-left"><i className="fab mr-1 fa-github"></i></button>
                             </a>
                             <a href='https://chatwith.io/s/thao-nguyen' target="_blank">
-                                <button type="button" class="btn btn-outline-success" data-aos="flip-left"><i class="fab mr-1 fa-whatsapp"></i></button>
+                                <button type="button" className="btn btn-outline-success" data-aos="flip-left"><i className="fab mr-1 fa-whatsapp"></i></button>
                             </a>
                             <a href='mailto:nguyendangthaoit@gmail.com' target="_blank">
-                                <button type="button" class="btn btn-outline-info" data-aos="flip-left"><i class="fab mr-1 fa-google"></i></button>
+                                <button type="button" className="btn btn-outline-info" data-aos="flip-left"><i className="fab mr-1 fa-google"></i></button>
                             </a>
                         </div>
                     </div>

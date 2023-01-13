@@ -424,8 +424,11 @@
         a {
             text-decoration: underline;
             font-size: 1.5rem;
-            color: #17a2b8;
+            color: #ee0d0d;
             text-transform: none;
+            &:hover {
+                color: white;
+            }
         }
     }
 }
