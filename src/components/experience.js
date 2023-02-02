@@ -6,26 +6,25 @@ function Experience() {
             title: 'SENIOR APPLICATION DEVELOPER',
             compony: '(FPT Malaysia)',
             desc: `Communicate with client and PM, estimate and manage task.
-            Evaluate frontend technologies.
-            Define the architecture, coding convention.
+            Define the structure, coding convention.
             Refactor and improve performance.
+            Implement logic back end.
             Develop and maintain production.
             Coach new members.
             Review and support team member's code.
-            Use tech: Net core, TypeScript, ReactJS, Jest, SQL, VueJS, Azure.`
+            Use tech Net core, TypeScript, SQL, VueJS, Jest, Azure.`
         },
         {
             period: '2020 - 2022',
             title: 'SENIOR FRONT END DEVELOPER',
             compony: '(FPT Malaysia)',
-            desc: `Communicated with client and implemented user stories.
-            Evaluated frontend technologies.
-            Defined the architecture, coding convention.
+            desc: `Communicated with client and PM, implemented task.
+            Implemented backend and Sql.
             Implemented unit test.
             Cooperated with backend teams to integrate API to the frontend.
+            Refactored and improve performance.
             Developed, maintained web, mobile application.
-            Used tech: Angular, ReactJS, React-Native, JavaScript, Jest,
-            Jasmine, Karma, Azure.`
+            Used tech .Net, Angular, ReactJS, React-Native, Dev.azure.`
         },
         {
             period: '2020 - 2021',
@@ -48,7 +47,7 @@ function Experience() {
             title: 'FRONT END DEVELOPER',
             compony: '(FPT Software Hanoi)',
             desc: `Implemented logic and created API.
-            Wrote script SQL
+            Wrote script SQL.
             Implemented UI/UX and integrated API to frontend.
             Implemented unit test.
             Deployed and maintained application.
