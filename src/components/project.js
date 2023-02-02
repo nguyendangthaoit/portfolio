@@ -1,7 +1,7 @@
 import React from "react";
-import usmallImg from '../assets/images/usmall.png';
+import usmallImg from '../assets/images/usmall1.png';
 import iapImg from '../assets/images/iap.jpg';
-import iapMoImg from '../assets/images/iapMo.jpg';
+import iapMoImg from '../assets/images/iapMo.png';
 function Project() {
 
     const data = [
@@ -15,10 +15,8 @@ function Project() {
             in Vietnam door-to-door. Customers in Vietnam only need to shop online and pay the final price.`,
             teamSize: 4,
             responsiblities: `Evaluating front-end technologies, making design decisions, and leading the effort to build
-            front-end projects from scratch by using latest and popular technologies: ReactJS,
-            Redux. Define the architecture, coding convention. Reviewing code & cooperate
-            with backend teams to integrate API to the frontend. Refactor, write unit tests and
-            documentation to help onboard developers adapt faster and easier. Working directly
+            front-end projects. Define the architecture, coding convention. Reviewing code & cooperate
+            with backend teams to integrate API to the frontend. Write unit tests. Working directly
             with the client and team to define the product roadmap. Build features
             and improvements based on the roadmap.`,
             technologies: `Frontend: ReactJS, TypeScript, Redux.  Backend: NodeJS, MongoDB, Rest API`,
@@ -32,9 +30,13 @@ function Project() {
             The purpose of this PSR is to create a new seamless digital integration tool (MyAssurance) for all
             PETRONAS operating and business units by embedding standardized & simplified processes.`,
             teamSize: 20,
-            responsiblities: `Estimated and implemented user stories. Implement back end and front end.
-             Built common component for front end.`,
-            technologies: `Frontend: Angular, TypeScript, Webpack, Redux. Backend: Net Core, SQL, Rest API.`,
+            responsiblities: `Estimated and implemented user stories. Implemented logic and created API.
+            Wrote script SQL
+            Implemented UI/UX and integrated API to frontend.
+            Implemented unit test.
+            Deployed and maintained application.
+            Communicated with tester and user.`,
+            technologies: `Frontend: Angular, TypeScript, Webpack, Redux, Karma. Backend: Net Core, SQL, Rest API.`,
             img: iapImg
         },
         {
@@ -83,18 +85,18 @@ function Project() {
                         data.map((item, i) =>
                             (i % 2 === 0) ?
                                 <div className="row pro-row" key={i}>
-                                    <div className="col-md-8" data-aos="fade-right">
+                                    <div className="col-md-7" data-aos="fade-right">
                                         {getDetail(item)}
                                     </div>
-                                    <div className="col-md-4 col-img" data-aos="fade-left">
+                                    <div className="col-md-5 col-img" data-aos="fade-left">
                                         {getImg(item)}
                                     </div>
                                 </div> :
                                 <div className="row pro-row" key={i}>
-                                    <div className="col-md-4 col-img" data-aos="fade-right">
+                                    <div className="col-md-5 col-img" data-aos="fade-right">
                                         {getImg(item)}
                                     </div>
-                                    <div className="col-md-8 mt-5" data-aos="fade-left">
+                                    <div className="col-md-7 mt-5" data-aos="fade-left">
                                         {getDetail(item)}
                                     </div>
                                 </div>

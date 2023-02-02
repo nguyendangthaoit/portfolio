@@ -5,38 +5,65 @@ function Experience() {
             period: '2022 - Now',
             title: 'SENIOR APPLICATION DEVELOPER',
             compony: '(FPT Malaysia)',
-            desc: `Estimate and manage user stories. Communicate with end user and PM. Build and develop systems.
-            Evaluating technologies. Review and support team member's code. 
-            Use tech Net core, TypeScript, SQL, VueJS, Dev.azure.`
+            desc: `Communicate with client and PM, estimate and manage task.
+            Evaluate frontend technologies.
+            Define the architecture, coding convention.
+            Refactor and improve performance.
+            Develop and maintain production.
+            Coach new members.
+            Review and support team member's code.
+            Use tech: Net core, TypeScript, ReactJS, Jest, SQL, VueJS, Azure.`
         },
         {
             period: '2020 - 2022',
             title: 'SENIOR FRONT END DEVELOPER',
             compony: '(FPT Malaysia)',
-            desc: `Evaluating front-end technologies. Defined the architecture, coding convention. 
-            Developed web, mobile application. Communicated with client. Used tech .Net, Angular, ReactJS, React-Native, Dev.azure.`
+            desc: `Communicated with client and implemented user stories.
+            Evaluated frontend technologies.
+            Defined the architecture, coding convention.
+            Implemented unit test.
+            Cooperated with backend teams to integrate API to the frontend.
+            Developed, maintained web, mobile application.
+            Used tech: Angular, ReactJS, React-Native, JavaScript, Jest,
+            Jasmine, Karma, Azure.`
         },
         {
             period: '2020 - 2021',
             title: 'SENIOR APPLICATION DEVELOPER',
             compony: 'Freelancer, Outsource',
-            desc: `Communicated with client and got documents. Estimated and manage tasks. Defined the architecture, coding convention. 
-            Reviewed and support team member. Deployed and test application. Used tech NodeJS, MongoDB, ReactJS, React-Native, Git, Shopify
-            platform.`
+            desc: `Communicated with client and got documents.
+            Wrote documents.
+            Evaluated technologies.
+            Designed structure database, project.
+            Implemented logic API and UI/UX.
+            Refactored and improved performance.
+            Reviewed and supported team member.
+            Deployed and tested application.
+            Mentored and guided other projects.
+            Used tech NodeJS, MongoDB, ReactJS, React-Native, Git, Shopify
+            platform, Jest, Karma, Redux, RxJs.`
         },
         {
             period: '2017 - 2019',
             title: 'FRONT END DEVELOPER',
             compony: '(FPT Software Hanoi)',
-            desc: `Implemented front end side. Integrated API to the frontend. Wrote unit test
-            Deployed application. Communicated with tester and user. Use tech Net, SQL, Angular, AngularJS, ReactJS, Jira.`
+            desc: `Implemented logic and created API.
+            Wrote script SQL
+            Implemented UI/UX and integrated API to frontend.
+            Implemented unit test.
+            Deployed and maintained application.
+            Communicated with tester and user.
+            Use tech Net, SQL, Angular, AngularJS, ReactJS, Jira.`
         },
         {
             period: '2015 - 2017',
             title: 'INTERN, CODER',
             compony: '(NACENTECH)',
-            desc: `Studied about process working.\n Researched and developed Android mobile.\n Developed desktop application.\n
-            Used tech C#, C, java.\n`
+            desc: `Studied about process working.
+            Researched and developed Android mobile.
+            Developed desktop, web application.
+            Set up and tested application.
+            Used tech C#, JavaScript, Html, Css.`
         }
     ];
 

@@ -71,7 +71,7 @@ function About() {
                             <h2>I'm a senior front end developer based in Vietnam.</h2>
                         </div>
                         <div className="w3ls-about-info">
-                            <p>I am a qualified and professional developer with over six years of
+                            <p>I am a qualified and professional frontend developer with over six years of
                                 experience in web and mobile application. Responsible and smart-working personality. I am a quick learner and able to work under
                                 pressure.
                             </p>
